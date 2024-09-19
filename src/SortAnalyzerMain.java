@@ -4,7 +4,7 @@ import java.util.List; // Update import if necessary
  * The SortAnalyzer class provides utility methods for analyzing and comparing
  * sorting algorithms.
  */
-public class SortAnalyzer {
+public class SortAnalyzerMain {
 
     /**
      * Measures the execution time of a given sorting algorithm on an array.

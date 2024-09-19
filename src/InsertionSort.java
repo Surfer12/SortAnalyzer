@@ -16,7 +16,7 @@ public class InsertionSort implements SortingAlgorithm, Comparator<Integer> {
      */
     private int findInsertionPoint(int[] array, int start, int key) {
         int i = start - 1;
-        while (i >= 0 && compare(key, array[i]) < 0) { // < 0 means a is less than b
+        while (i >= 0 && compare(key, array[i])) {
             array[i + 1] = array[i];
             i--;
         }

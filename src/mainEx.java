@@ -1,12 +1,10 @@
-import java.util.Arrays; 
-import java.util.List; 
-import java.util.Random; 
-
-
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
 
 public class mainEx {
     public static void main(String[] args) {
-        SortAnalyzer analyzer = new SortAnalyzer();
+        SortAnalyzerMain analyzer = new SortAnalyzerMain();
         List<SortingAlgorithm> algorithms = Arrays.asList(new InsertionSort(), new SelectionSort());
 
         int[] array = generateRandomArray(10000);
