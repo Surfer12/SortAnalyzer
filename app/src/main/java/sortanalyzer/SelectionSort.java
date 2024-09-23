@@ -1,3 +1,5 @@
+package sortanalyzer;
+
 /**
  * The SelectionSort class implements the selection sort algorithm.
  */

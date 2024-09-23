@@ -1,3 +1,5 @@
+package sortanalyzer;
+
 /**
  * The SortingAlgorithm interface defines the contract for sorting algorithms.
  */

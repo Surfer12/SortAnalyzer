@@ -1,3 +1,5 @@
+package sortanalyzer;
+
 import java.util.Comparator;
 
 /**
