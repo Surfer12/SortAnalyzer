@@ -4,5 +4,25 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "java.compile.nullAnalysis.mode": "automatic"
+
+    "java.compile.nullAnalysis.mode": "automatic",
+    "github.copilot.advanced": {
+        "enabled": {
+            "*": false,
+            "plaintext": true,
+            "markdown": true,
+            "scminput": true,
+            "java": true,
+            "groovy": true,
+            "json": true,
+            "powershell": true,
+            "shellscript": true,
+            "yaml": true,
+            "bat": true,
+            "diff": true,
+            "dockerfile": true,
+            "dockercompose": true,
+            "git-commit and git-rebase": true
+        }
+    }
 }
